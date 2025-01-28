@@ -2,7 +2,7 @@
 
 int main(){
     int a,b,c;
-    scanf("%a%b",&a,&b);
+    scanf("%d%d",&a,&b);
     c=a^b;
     printf("%d",c);
 }

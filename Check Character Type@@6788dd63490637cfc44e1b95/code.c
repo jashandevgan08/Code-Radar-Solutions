@@ -2,7 +2,7 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if a in "AEIOU"||"aeiou"{
+    if a in ("AEIOU"||"aeiou"){
         printf("Vowel");
     }
 }

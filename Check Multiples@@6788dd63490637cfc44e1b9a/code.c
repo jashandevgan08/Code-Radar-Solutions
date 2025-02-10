@@ -7,6 +7,6 @@ int main(){
         print("Yes");
     }
     else{
-        print("No")
+        print("No");
     }
 }

@@ -14,7 +14,7 @@ int main() {
         printf("30");
         break;
         case 4:
-        printf("31");
+        printf("30");
         break;
         case 5:
         printf("30");
@@ -39,6 +39,9 @@ int main() {
         break;
         case 12:
         printf("31");
+        break;
+        default:
+        printf("Invaild month");
         break;
 
     }

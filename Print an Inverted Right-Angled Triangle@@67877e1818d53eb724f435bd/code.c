@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int n = 5;
+    int n;
+    scanf("%d",&n);
 
     // Outer loop to print all rows
     for (int i = 0; i < n; i++) {

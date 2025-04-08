@@ -10,7 +10,7 @@ int main(){
         for(int k=1;k<=nst;k++){
             printf("*");
         }
-        if(i<=5/2){
+        if(i<=n/2){
             nsp--;
             nst+=2;
         }

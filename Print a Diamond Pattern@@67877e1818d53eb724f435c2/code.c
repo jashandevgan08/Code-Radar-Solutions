@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    scanf("%d", &n);  
+    scanf("%d", &n);  // Should be odd for a perfect diamond
 
     int nst = 1;
     int nsp = n / 2;
@@ -16,7 +16,7 @@ int main() {
         }
         printf("\n");
 
-        if (i <= (n / 2)+1) {
+        if (i <= n / 2) {
             nsp--;
             nst += 2;
         } else {

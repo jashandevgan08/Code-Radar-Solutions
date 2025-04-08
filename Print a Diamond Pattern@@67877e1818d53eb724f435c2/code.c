@@ -17,7 +17,7 @@ int main() {
 
         printf("\n");
 
-        if(i <= (n / 2)+1) {
+        if(i <= (n / 2)) {
             nsp--;
             nst += 2;
         } else {

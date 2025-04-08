@@ -24,7 +24,7 @@ int main() {
             nsp++;
             nst -= 2;
         }
-        printf("%d",nst);
+        printf("\n");
     }
 
     return 0;

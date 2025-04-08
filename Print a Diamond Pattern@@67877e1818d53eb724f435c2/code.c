@@ -17,10 +17,10 @@ int main() {
         printf("\n");
         nsp--;
         nst += 2;
-         for (int j = nsp; j <= nsp; j--) {
+         for (int j = nsp; j >= nsp; j--) {
             printf(" ");
         }
-        for (int k = nst; k <= nst; k--) {
+        for (int k = nst; k >= nst; k--) {
             printf("*");
         }
     }

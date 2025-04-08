@@ -23,6 +23,8 @@ int main() {
         for (int k = nst; k >= nst; k--) {
             printf("*");
         }
+        nsp++;
+        nst-=2;
     }
 
     return 0;

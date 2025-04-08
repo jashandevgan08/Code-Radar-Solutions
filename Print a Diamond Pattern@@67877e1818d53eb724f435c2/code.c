@@ -17,6 +17,12 @@ int main() {
         printf("\n");
         nsp--;
         nst += 2;
+         for (int j = 1; j >= nsp; j++) {
+            printf(" ");
+        }
+        for (int k = 1; k >= nst; k++) {
+            printf("*");
+        }
     }
 
     return 0;

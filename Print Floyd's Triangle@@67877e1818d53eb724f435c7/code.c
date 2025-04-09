@@ -10,10 +10,6 @@ int main(){
             printf("%d ", num);
             num++;
         }
-        // After finishing a row, skip next number if it's odd
-        if(num % 2 != 0){
-            num++;
-        }
         printf("\n");
     }
 

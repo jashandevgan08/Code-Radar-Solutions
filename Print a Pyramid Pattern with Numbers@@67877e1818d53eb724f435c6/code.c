@@ -8,8 +8,8 @@ int main(){
             printf(" ");
             nsp--;
         }
-        for(int k=1;k<=n-i+1;k++){
-            printf("%d",k);
+        for(int k=1;k<=n;k++){
+            printf("%d ",k);
         }
         printf("\n");
     }

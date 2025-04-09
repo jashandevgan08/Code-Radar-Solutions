@@ -8,7 +8,8 @@ int main(){
             printf("%d ",num);
             num++;
         }
-        num++;
+        if(num!=2){
+        num++;}
         printf("\n");
     }
 }

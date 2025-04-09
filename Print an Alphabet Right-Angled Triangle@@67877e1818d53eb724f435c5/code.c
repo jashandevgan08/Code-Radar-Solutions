@@ -8,5 +8,6 @@ int main(){
             ch='A'+i-1;
             printf("%c",ch);
         }
+        printf("\n");
     }
 }

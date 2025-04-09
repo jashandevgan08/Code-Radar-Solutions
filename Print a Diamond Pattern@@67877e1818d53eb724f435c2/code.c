@@ -6,8 +6,8 @@ int main() {
 
     int nst = 1;
     int nsp = n / 2;
-
-    for(int i = 1; i <= n+1; i++) {
+    for(int i = 1; i <= n; i++)
+    {
         for(int j = 1; j <= nsp; j++) {
             printf(" ");
         }
@@ -17,7 +17,7 @@ int main() {
 
         printf("\n");
 
-        if(i < (n / 2) + 1) {
+        if(i <= (n / 2)) {
             nsp--;
             nst += 2;
         } else {
